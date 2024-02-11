@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    body{
+      background-color: black;
+      color:white;
+      display:flex;
+      justify-content: center;
+      height:90vh;
+      padding:70px;
+      width:auto ;
+      
+      
+    }
+    .content{
+      display:flex;
+      flex-direction:column;
+      text-align:center;
+      background-color: rgb(59, 53, 53);
+      width:330px;
+      padding: 20px 20px;
+      border-radius:20px;  
+      justify-content:center;
+      margin-top:90px;
+      margin-bottom:30px;
+ 
+    }
+    .location
+    {
+      color:yellow;
+      font-size: 15px;
+    
+
+    }
+    .link_container
+    {
+  
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     height: 35px;   
+     margin-top: 20px;
+
+    }
+
+   .link_container :hover
+    {
+      cursor: pointer;
+    }
+    
+    img
+    {
+      border-radius:500px;
+      height:100px;
+    
+
+    }
+    
+   .profile
+    {
+      background-color: rgba(245, 193, 193, 0.597);
+    }
+    #one
+    {
+      background-color: grey;
+      border-radius:10px;
+      height: 40px;
+      width:300px;
+      
+    }
+    
+    #two
+    {
+      background-color: grey;
+      border-radius:10px;
+      height: 40px;
+      width:300px
+    }
+    #three
+    {
+      background-color: grey;
+      border-radius:10px;
+      height: 40px;
+      width:300px
+      
+    }
+    #four
+    {
+      background-color: grey;
+      border-radius:10px;
+      height: 40px;
+      width:300px
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="content">
+       <div class="img_container">
+          <img src="/avatar.jpg">
+       </div>
+
+    <h2> Name <br> <span class="location">Place, Country</span></h2>
+    <p>"Front-end developer and avid reader."</p>
+  
+     <div class="link_container"><p id="one"><b>GitHub</b></p></div>
+     <div class="link_container" ><p id="two"><b>LinkedIn</b></p></div>
+     <div class="link_container"><p id="three"><b>Twitter</b></p> </div>
+     <div class="link_container"><p id="four"><b>Instagram</b></p></div>
+ 
+  </div> 
+</body>
+</html>
